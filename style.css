@@ -1,0 +1,17 @@
+#nag {
+	text-align:center;
+}
+#result {
+	text-align:center;
+	width:1200px;
+	height:30px;
+	background-color:lightblue;
+	color:black;
+	font-weight:bold;
+	font-size:18px;
+}
+#stopka {
+	text-align:center;
+	font-size:11px;
+	
+}

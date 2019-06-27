@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<head>
+<title>Licznik tekstu</title>
+<link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<script type="text/javascript">
+function policz() {
+var a = document.forms['licznik'].insert.value;
+var wynik = a.length;
+document.getElementById('result').innerHTML="Twój tekst liczy: "+wynik+" zzs.";
+}
+</script>
+</head>
+
+<body>
+<div id="nag"><h1>Przybornik COPYWRITERA</h1>
+<h3>Licznik  zzs (znaków ze spacjami)</h3></div>
+<form action="" name="licznik">
+<textarea style="width:1200px; text-align:justify; height:400px;" name="insert"></textarea>
+<input type="button" value="Policz całkowitą ilość znaków ze spacjami" style="width:1200px;height:30px;color:white; background-color:black;"onclick="policz()">
+<input type="reset" style="width:1200px;height:30px;color:white; background-color:gray;">
+
+</form>
+<div id="result"></div>
+<div id="stopka"></br></br>**Made by JŚ (czerwiec 2019)**</div>
+</body>
+</html>
